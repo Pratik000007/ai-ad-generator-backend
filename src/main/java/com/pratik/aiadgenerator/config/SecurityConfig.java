@@ -64,6 +64,7 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:5173",
                 "https://ai-ad-generator-frontend.vercel.app",
+                "https://ai-ad-generator-frontend-*.vercel.app",
                 "https://ai-ad-generator-frontend-2jfkbxjci-pratik000007s-projects.vercel.app"
         ));
        // configuration.setAllowedOrigins(List.of("http://localhost:5173"));
